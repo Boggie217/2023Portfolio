@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #be0e0e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* the styling for the components */
+
+.footer {
+  height: 50px;
+  font-size: 30px;
+  background-color: #d3d3d3;
+  width: 100%;
+  
+  color: black;
+  overflow: hidden; /* Handle overflow content */
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.projects {
+  height: 600px;
+  background-color: #DE0A26;
+  width: 100%;
+  margin-bottom: 0%;
+  
+  display: flex;
+  align-items: center;
+  
+  color: white;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  
+}
+
+.projects button { padding: 12px;
+background-color: black;
+color: white;}
+
+.navBar {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero {
+  height: 600px;
+  background-color: #DE0A26;
+  width: 100%;
+  margin-bottom: 0%;
+  
+  color: white;
+  padding-top: 10%;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  width: 65%;
+  font-size: 30px;
+  opacity: 0; /* Start with zero opacity */
+  animation: fadeIn 1.5s ease-in forwards; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+.aboutUs {
+  background-color: #d1001f;
+  height: 600px; /* Ensure a minimum height of 500px */
+  width: 100%;
+  margin-bottom: 0%;
+  
+  color: white;
+  padding-top: 15%;
+  overflow: hidden; /* Handle overflow content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.contactUs{
+
+  background-color: #d1001f;
+  height: 600px; /* Ensure a minimum height of 500px */
+  width: 100%;
+  margin-bottom: 0%;
+  
+  color: white;
+  padding-top: 30%;
+  overflow: hidden; /* Handle overflow content */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.contactUs p{margin-left: 300px;}
+
+
+
+
+/* Style the buttons */
+.button {
+  display: inline-block;
+  padding: 20px 40px; /* Adjust padding as needed */
+  font-size: 18px; /* Adjust font size as needed */
+  background-color: #61dafb; /* Button background color */
+  color: white;
+  text-decoration: none;
+  margin: 10px; /* Adjust margin as needed for spacing */
+  border: none;
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer;
+  transition: background-color 2s; /* Add a smooth hover effect */
+}
+
+.button :hover {background-color: black;
+color: white;}
+
+
+
+
+
+
+
+
+/* Add these styles to your CSS file, e.g., footer.css */
+
+/* Style the entire footer */
+.footer {
+  background-color: grey; /* Background color */
+  color: #000; /* Text color (black) */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Style the content within the footer, create columns */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style each column section */
+.footer-section {
+  flex: 1;
+  margin: 0 10px; /* Add spacing between columns */
+}
+
+/* Style the headings within each section */
+.footer-section h3 {
+  font-size: 18px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Spacing below headings */
+}
+
+/* Style the links within the "Explore" section */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px; /* Spacing between list items */
+}
+
+/* Style the copyright text at the bottom */
+.footer-bottom {
+  text-align: center; /* Center-align the text */
+  padding-top: 20px; /* Add spacing above the copyright text */
+}
+
+
+/* app.css */
+
+/* Add styling for the CVDownload component */
+.cvDownload {
+  text-align: center; /* Center-align the content */
+   /* Add margin for spacing */
+  background-color: #292b2c;
+  width: 25%;
+  height: 600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cvLink {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: white; /* Background color for the link */
+  color: #fff; /* Text color (white) */
+  text-decoration: none; /* Remove underlines from the link text */
+  border-radius: 5px; /* Add rounded corners to the link */
+}
+
+.cvLink:hover {
+  background-color: red; /* Background color on hover */
+}

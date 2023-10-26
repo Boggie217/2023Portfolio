@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    text-align: center; /* Center items along the X-axis */
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .navbar-item :hover {color: black;
+background-color: white;
+height: 100%;
+padding: 20px;}
+  
+  .navbar-item {
+    display: inline;
+    margin: 0 20px; /* Add margin for spacing between items */
+  }
+  
+  .navbar-item a {
+    text-decoration: none; /* Remove text decoration */
+    color: white; /* Text color for navbar items */
+  }
